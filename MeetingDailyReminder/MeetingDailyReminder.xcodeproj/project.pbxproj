@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		590C71121C5985BF00EBEAE8 /* image-1536-2048.png in Resources */ = {isa = PBXBuildFile; fileRef = 590C71111C5985BF00EBEAE8 /* image-1536-2048.png */; };
+		590CC5171C5CCD7300199228 /* IconPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590CC5161C5CCD7300199228 /* IconPickerViewController.swift */; };
+		590CC52E1C5CDA2000199228 /* Appointments@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 590CC51A1C5CDA2000199228 /* Appointments@2x.png */; };
+		590CC52F1C5CDA2000199228 /* Appointments@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 590CC51B1C5CDA2000199228 /* Appointments@3x.png */; };
+		590CC5301C5CDA2000199228 /* Birthdays@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 590CC51C1C5CDA2000199228 /* Birthdays@2x.png */; };
+		590CC5311C5CDA2000199228 /* Birthdays@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 590CC51D1C5CDA2000199228 /* Birthdays@3x.png */; };
+		590CC5321C5CDA2000199228 /* Chores@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 590CC51E1C5CDA2000199228 /* Chores@2x.png */; };
+		590CC5331C5CDA2000199228 /* Chores@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 590CC51F1C5CDA2000199228 /* Chores@3x.png */; };
+		590CC5341C5CDA2000199228 /* Drinks@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 590CC5201C5CDA2000199228 /* Drinks@2x.png */; };
+		590CC5351C5CDA2000199228 /* Drinks@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 590CC5211C5CDA2000199228 /* Drinks@3x.png */; };
+		590CC5361C5CDA2000199228 /* Folder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 590CC5221C5CDA2000199228 /* Folder@2x.png */; };
+		590CC5371C5CDA2000199228 /* Folder@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 590CC5231C5CDA2000199228 /* Folder@3x.png */; };
+		590CC5381C5CDA2000199228 /* Groceries@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 590CC5241C5CDA2000199228 /* Groceries@2x.png */; };
+		590CC5391C5CDA2000199228 /* Groceries@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 590CC5251C5CDA2000199228 /* Groceries@3x.png */; };
+		590CC53A1C5CDA2000199228 /* Inbox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 590CC5261C5CDA2000199228 /* Inbox@2x.png */; };
+		590CC53B1C5CDA2000199228 /* Inbox@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 590CC5271C5CDA2000199228 /* Inbox@3x.png */; };
+		590CC53C1C5CDA2000199228 /* No Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 590CC5281C5CDA2000199228 /* No Icon@2x.png */; };
+		590CC53D1C5CDA2000199228 /* No Icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 590CC5291C5CDA2000199228 /* No Icon@3x.png */; };
+		590CC53E1C5CDA2000199228 /* Photos@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 590CC52A1C5CDA2000199228 /* Photos@2x.png */; };
+		590CC53F1C5CDA2000199228 /* Photos@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 590CC52B1C5CDA2000199228 /* Photos@3x.png */; };
+		590CC5401C5CDA2000199228 /* Trips@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 590CC52C1C5CDA2000199228 /* Trips@2x.png */; };
+		590CC5411C5CDA2000199228 /* Trips@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 590CC52D1C5CDA2000199228 /* Trips@3x.png */; };
+		5974FACE1C5631CD000B0884 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5974FACD1C5631CD000B0884 /* AppDelegate.swift */; };
+		5974FAD01C5631CD000B0884 /* TravelPlannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5974FACF1C5631CD000B0884 /* TravelPlannerViewController.swift */; };
+		5974FAD31C5631CD000B0884 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5974FAD11C5631CD000B0884 /* Main.storyboard */; };
+		598DA8C81C56C5AD003052D1 /* ItemTravelDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598DA8C71C56C5AD003052D1 /* ItemTravelDetailViewController.swift */; };
+		59A23D671C56842C00A204F9 /* TravelListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A23D661C56842C00A204F9 /* TravelListItem.swift */; };
+		59B1E2C01C57F41B00AA7865 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59B1E2BF1C57F41B00AA7865 /* Images.xcassets */; };
+		59CB4E351C58F0CD008C3FEA /* DailyAppDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59CB4E341C58F0CD008C3FEA /* DailyAppDataModel.swift */; };
+		59F0FD991C5803D800D01E20 /* AllListsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F0FD981C5803D700D01E20 /* AllListsTableViewController.swift */; };
+		59F0FD9B1C5810A600D01E20 /* ReminderList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F0FD9A1C5810A600D01E20 /* ReminderList.swift */; };
+		59F0FD9D1C581F2200D01E20 /* ReminderListDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F0FD9C1C581F2200D01E20 /* ReminderListDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		590C71111C5985BF00EBEAE8 /* image-1536-2048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "image-1536-2048.png"; path = "../../../../MultiLanguagesSentences/Resize-Data-Optimized/birthday/image-1536-2048.png"; sourceTree = "<group>"; };
+		590CC5161C5CCD7300199228 /* IconPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconPickerViewController.swift; sourceTree = "<group>"; };
+		590CC51A1C5CDA2000199228 /* Appointments@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Appointments@2x.png"; path = "MeetingIcons/Appointments@2x.png"; sourceTree = "<group>"; };
+		590CC51B1C5CDA2000199228 /* Appointments@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Appointments@3x.png"; path = "MeetingIcons/Appointments@3x.png"; sourceTree = "<group>"; };
+		590CC51C1C5CDA2000199228 /* Birthdays@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Birthdays@2x.png"; path = "MeetingIcons/Birthdays@2x.png"; sourceTree = "<group>"; };
+		590CC51D1C5CDA2000199228 /* Birthdays@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Birthdays@3x.png"; path = "MeetingIcons/Birthdays@3x.png"; sourceTree = "<group>"; };
+		590CC51E1C5CDA2000199228 /* Chores@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Chores@2x.png"; path = "MeetingIcons/Chores@2x.png"; sourceTree = "<group>"; };
+		590CC51F1C5CDA2000199228 /* Chores@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Chores@3x.png"; path = "MeetingIcons/Chores@3x.png"; sourceTree = "<group>"; };
+		590CC5201C5CDA2000199228 /* Drinks@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Drinks@2x.png"; path = "MeetingIcons/Drinks@2x.png"; sourceTree = "<group>"; };
+		590CC5211C5CDA2000199228 /* Drinks@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Drinks@3x.png"; path = "MeetingIcons/Drinks@3x.png"; sourceTree = "<group>"; };
+		590CC5221C5CDA2000199228 /* Folder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Folder@2x.png"; path = "MeetingIcons/Folder@2x.png"; sourceTree = "<group>"; };
+		590CC5231C5CDA2000199228 /* Folder@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Folder@3x.png"; path = "MeetingIcons/Folder@3x.png"; sourceTree = "<group>"; };
+		590CC5241C5CDA2000199228 /* Groceries@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Groceries@2x.png"; path = "MeetingIcons/Groceries@2x.png"; sourceTree = "<group>"; };
+		590CC5251C5CDA2000199228 /* Groceries@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Groceries@3x.png"; path = "MeetingIcons/Groceries@3x.png"; sourceTree = "<group>"; };
+		590CC5261C5CDA2000199228 /* Inbox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Inbox@2x.png"; path = "MeetingIcons/Inbox@2x.png"; sourceTree = "<group>"; };
+		590CC5271C5CDA2000199228 /* Inbox@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Inbox@3x.png"; path = "MeetingIcons/Inbox@3x.png"; sourceTree = "<group>"; };
+		590CC5281C5CDA2000199228 /* No Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "No Icon@2x.png"; path = "MeetingIcons/No Icon@2x.png"; sourceTree = "<group>"; };
+		590CC5291C5CDA2000199228 /* No Icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "No Icon@3x.png"; path = "MeetingIcons/No Icon@3x.png"; sourceTree = "<group>"; };
+		590CC52A1C5CDA2000199228 /* Photos@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Photos@2x.png"; path = "MeetingIcons/Photos@2x.png"; sourceTree = "<group>"; };
+		590CC52B1C5CDA2000199228 /* Photos@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Photos@3x.png"; path = "MeetingIcons/Photos@3x.png"; sourceTree = "<group>"; };
+		590CC52C1C5CDA2000199228 /* Trips@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Trips@2x.png"; path = "MeetingIcons/Trips@2x.png"; sourceTree = "<group>"; };
+		590CC52D1C5CDA2000199228 /* Trips@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Trips@3x.png"; path = "MeetingIcons/Trips@3x.png"; sourceTree = "<group>"; };
+		5974FACA1C5631CD000B0884 /* MeetingDailyReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetingDailyReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5974FACD1C5631CD000B0884 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5974FACF1C5631CD000B0884 /* TravelPlannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelPlannerViewController.swift; sourceTree = "<group>"; };
+		5974FAD21C5631CD000B0884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5974FAD91C5631CD000B0884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		598DA8C71C56C5AD003052D1 /* ItemTravelDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTravelDetailViewController.swift; sourceTree = "<group>"; };
+		59A23D661C56842C00A204F9 /* TravelListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelListItem.swift; sourceTree = "<group>"; };
+		59B1E2BF1C57F41B00AA7865 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		59CB4E341C58F0CD008C3FEA /* DailyAppDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyAppDataModel.swift; sourceTree = "<group>"; };
+		59F0FD981C5803D700D01E20 /* AllListsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllListsTableViewController.swift; sourceTree = "<group>"; };
+		59F0FD9A1C5810A600D01E20 /* ReminderList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReminderList.swift; sourceTree = "<group>"; };
+		59F0FD9C1C581F2200D01E20 /* ReminderListDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReminderListDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5974FAC71C5631CD000B0884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5974FAC11C5631CD000B0884 = {
+			isa = PBXGroup;
+			children = (
+				5974FACC1C5631CD000B0884 /* MeetingDailyReminder */,
+				5974FACB1C5631CD000B0884 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5974FACB1C5631CD000B0884 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5974FACA1C5631CD000B0884 /* MeetingDailyReminder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5974FACC1C5631CD000B0884 /* MeetingDailyReminder */ = {
+			isa = PBXGroup;
+			children = (
+				590CC51A1C5CDA2000199228 /* Appointments@2x.png */,
+				590CC51B1C5CDA2000199228 /* Appointments@3x.png */,
+				590CC51C1C5CDA2000199228 /* Birthdays@2x.png */,
+				590CC51D1C5CDA2000199228 /* Birthdays@3x.png */,
+				590CC51E1C5CDA2000199228 /* Chores@2x.png */,
+				590CC51F1C5CDA2000199228 /* Chores@3x.png */,
+				590CC5201C5CDA2000199228 /* Drinks@2x.png */,
+				590CC5211C5CDA2000199228 /* Drinks@3x.png */,
+				590CC5221C5CDA2000199228 /* Folder@2x.png */,
+				590CC5231C5CDA2000199228 /* Folder@3x.png */,
+				590CC5241C5CDA2000199228 /* Groceries@2x.png */,
+				590CC5251C5CDA2000199228 /* Groceries@3x.png */,
+				590CC5261C5CDA2000199228 /* Inbox@2x.png */,
+				590CC5271C5CDA2000199228 /* Inbox@3x.png */,
+				590CC5281C5CDA2000199228 /* No Icon@2x.png */,
+				590CC5291C5CDA2000199228 /* No Icon@3x.png */,
+				590CC52A1C5CDA2000199228 /* Photos@2x.png */,
+				590CC52B1C5CDA2000199228 /* Photos@3x.png */,
+				590CC52C1C5CDA2000199228 /* Trips@2x.png */,
+				590CC52D1C5CDA2000199228 /* Trips@3x.png */,
+				590C71111C5985BF00EBEAE8 /* image-1536-2048.png */,
+				5974FACD1C5631CD000B0884 /* AppDelegate.swift */,
+				59A23D661C56842C00A204F9 /* TravelListItem.swift */,
+				5974FACF1C5631CD000B0884 /* TravelPlannerViewController.swift */,
+				598DA8C71C56C5AD003052D1 /* ItemTravelDetailViewController.swift */,
+				590CC5161C5CCD7300199228 /* IconPickerViewController.swift */,
+				59F0FD9A1C5810A600D01E20 /* ReminderList.swift */,
+				59F0FD9C1C581F2200D01E20 /* ReminderListDetailViewController.swift */,
+				59F0FD981C5803D700D01E20 /* AllListsTableViewController.swift */,
+				59CB4E341C58F0CD008C3FEA /* DailyAppDataModel.swift */,
+				5974FAD11C5631CD000B0884 /* Main.storyboard */,
+				5974FAD91C5631CD000B0884 /* Info.plist */,
+				59B1E2BF1C57F41B00AA7865 /* Images.xcassets */,
+			);
+			name = MeetingDailyReminder;
+			path = TravelPlanner;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5974FAC91C5631CD000B0884 /* MeetingDailyReminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5974FADC1C5631CD000B0884 /* Build configuration list for PBXNativeTarget "MeetingDailyReminder" */;
+			buildPhases = (
+				5974FAC61C5631CD000B0884 /* Sources */,
+				5974FAC71C5631CD000B0884 /* Frameworks */,
+				5974FAC81C5631CD000B0884 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeetingDailyReminder;
+			productName = TravelPlanner;
+			productReference = 5974FACA1C5631CD000B0884 /* MeetingDailyReminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5974FAC21C5631CD000B0884 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Patrick Arouette";
+				TargetAttributes = {
+					5974FAC91C5631CD000B0884 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = PYPJRZWCWZ;
+					};
+				};
+			};
+			buildConfigurationList = 5974FAC51C5631CD000B0884 /* Build configuration list for PBXProject "MeetingDailyReminder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5974FAC11C5631CD000B0884;
+			productRefGroup = 5974FACB1C5631CD000B0884 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5974FAC91C5631CD000B0884 /* MeetingDailyReminder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5974FAC81C5631CD000B0884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				590CC5381C5CDA2000199228 /* Groceries@2x.png in Resources */,
+				590C71121C5985BF00EBEAE8 /* image-1536-2048.png in Resources */,
+				590CC53D1C5CDA2000199228 /* No Icon@3x.png in Resources */,
+				590CC53E1C5CDA2000199228 /* Photos@2x.png in Resources */,
+				590CC5391C5CDA2000199228 /* Groceries@3x.png in Resources */,
+				590CC52F1C5CDA2000199228 /* Appointments@3x.png in Resources */,
+				59B1E2C01C57F41B00AA7865 /* Images.xcassets in Resources */,
+				590CC53C1C5CDA2000199228 /* No Icon@2x.png in Resources */,
+				590CC5331C5CDA2000199228 /* Chores@3x.png in Resources */,
+				590CC5321C5CDA2000199228 /* Chores@2x.png in Resources */,
+				590CC5401C5CDA2000199228 /* Trips@2x.png in Resources */,
+				590CC52E1C5CDA2000199228 /* Appointments@2x.png in Resources */,
+				590CC5361C5CDA2000199228 /* Folder@2x.png in Resources */,
+				590CC5311C5CDA2000199228 /* Birthdays@3x.png in Resources */,
+				590CC5371C5CDA2000199228 /* Folder@3x.png in Resources */,
+				590CC53B1C5CDA2000199228 /* Inbox@3x.png in Resources */,
+				590CC53A1C5CDA2000199228 /* Inbox@2x.png in Resources */,
+				590CC5411C5CDA2000199228 /* Trips@3x.png in Resources */,
+				590CC5341C5CDA2000199228 /* Drinks@2x.png in Resources */,
+				5974FAD31C5631CD000B0884 /* Main.storyboard in Resources */,
+				590CC53F1C5CDA2000199228 /* Photos@3x.png in Resources */,
+				590CC5301C5CDA2000199228 /* Birthdays@2x.png in Resources */,
+				590CC5351C5CDA2000199228 /* Drinks@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5974FAC61C5631CD000B0884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5974FAD01C5631CD000B0884 /* TravelPlannerViewController.swift in Sources */,
+				59CB4E351C58F0CD008C3FEA /* DailyAppDataModel.swift in Sources */,
+				59F0FD9D1C581F2200D01E20 /* ReminderListDetailViewController.swift in Sources */,
+				590CC5171C5CCD7300199228 /* IconPickerViewController.swift in Sources */,
+				59F0FD9B1C5810A600D01E20 /* ReminderList.swift in Sources */,
+				5974FACE1C5631CD000B0884 /* AppDelegate.swift in Sources */,
+				59A23D671C56842C00A204F9 /* TravelListItem.swift in Sources */,
+				59F0FD991C5803D800D01E20 /* AllListsTableViewController.swift in Sources */,
+				598DA8C81C56C5AD003052D1 /* ItemTravelDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5974FAD11C5631CD000B0884 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5974FAD21C5631CD000B0884 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5974FADA1C5631CD000B0884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5974FADB1C5631CD000B0884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5974FADD1C5631CD000B0884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = TravelPlanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.patrickarouette.MeetingDailyReminder;
+				PRODUCT_NAME = MeetingDailyReminder;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5974FADE1C5631CD000B0884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = TravelPlanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.patrickarouette.MeetingDailyReminder;
+				PRODUCT_NAME = MeetingDailyReminder;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5974FAC51C5631CD000B0884 /* Build configuration list for PBXProject "MeetingDailyReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5974FADA1C5631CD000B0884 /* Debug */,
+				5974FADB1C5631CD000B0884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5974FADC1C5631CD000B0884 /* Build configuration list for PBXNativeTarget "MeetingDailyReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5974FADD1C5631CD000B0884 /* Debug */,
+				5974FADE1C5631CD000B0884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5974FAC21C5631CD000B0884 /* Project object */;
+}
